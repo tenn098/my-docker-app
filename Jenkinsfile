@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get the code from GitHub
-                git 'https://github.com/tenn098/your-repo.git'
+                git branch: 'main', url: 'https://github.com/tenn098/my-docker-app.git'
             }
         }
 
