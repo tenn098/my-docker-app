@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker build -t my-app:latest .'
-                    sh 'docker tag my-app:latest my-app:1.0.3' // Tag with the version number
+                    sh 'docker tag my-app:latest my-app:1.1' // Tag with the version number
                 }
             }
         }
